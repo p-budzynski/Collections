@@ -1,0 +1,5 @@
+Praca domowa 1 (ArrayList):
+1.Napisz metodę, która podmienia trzeci element ArrayListy przekazanej w argumencie na inny element(też przekazany w argumencie).
+2.Napisz metodę, która będzie powiększała rozmiar danej ArrayListy o wskazaną wartość.
+3.Napisz metodę, która będzie trymować pojemność ArrayListy do tej wielkości, ile ma aktualnie elementów.
+4.Napisz metodę, która będzie czyściła podaną ArrayListę.
