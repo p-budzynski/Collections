@@ -9,7 +9,7 @@ public class ArrayListRunner {
     public static void main(String[] args) {
         ArrayListService arrayListService = new ArrayListService();
 
-        List<String> stringList = new ArrayList<>();
+        ArrayList<String> stringList = new ArrayList<>();
 
         stringList.add("one");
         stringList.add("two");
@@ -23,16 +23,16 @@ public class ArrayListRunner {
         arrayListService.replaceThirdElement(stringList, "new element");
         System.out.println(stringList);
 
-        stringList = arrayListService.increaseList(stringList, 100);
+        arrayListService.increaseList(stringList,100);
 
-        stringList = arrayListService.trimList(stringList);
+        arrayListService.trimList(stringList);
 
         arrayListService.clearList(stringList);
         System.out.println(stringList);
 
         System.out.println("------------------------------------");
 
-        List<Integer> integerList = new ArrayList<>();
+        ArrayList<Integer> integerList = new ArrayList<>();
 
         integerList.add(1);
         integerList.add(2);
@@ -43,14 +43,12 @@ public class ArrayListRunner {
 
         System.out.println(integerList);
 
-        arrayListService.replaceThirdElement(integerList, 666);
+        arrayListService.replaceThirdElement(integerList,666);
         System.out.println(integerList);
 
-        integerList = arrayListService.increaseList(integerList, 50);
-        System.out.println(integerList.size());
+        arrayListService.increaseList(integerList, 50);
 
-        integerList = arrayListService.trimList(integerList);
-        System.out.println(integerList.size());
+        arrayListService.trimList(integerList);
 
         arrayListService.clearList(integerList);
         System.out.println(integerList);
