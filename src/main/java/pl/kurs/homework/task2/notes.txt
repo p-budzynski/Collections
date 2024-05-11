@@ -1,0 +1,6 @@
+Praca domowa2 (LinkedList):
+ 1.Napisz metodę, która wstawia dany element do wybranego indexu LinkedListy;
+ 2.Napisz metodę, która sprawdza czy dany element istnieje w LinkedLiście;
+ 3.Napisz metodę, która będzie sprawdzała, czy dana LinkedLista jest pusta czy nie;
+ 4.Napisz metodę, która będzie zwracała LinkedListę booleanów, metoda ma porównywać elementy dwóch LinkedList – jeżeli dwie Linked Listy
+ mają wszystkie np. 3 elementy takie same to LinkedLista wynikowa ma wyglądać tak: [true, true, true].

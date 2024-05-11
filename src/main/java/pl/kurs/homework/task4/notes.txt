@@ -1,0 +1,3 @@
+Praca domowa 4 (TreeSet):
+ 1.Napisz metodę, która zwróci oraz usunie ostatni element TreeSetu przekazanego w argumencie;
+ 2.Napisz metodę, która zwróci element niższy niż podany w argumencie obiekt. W Argumencie masz również podać dany TreeSet;

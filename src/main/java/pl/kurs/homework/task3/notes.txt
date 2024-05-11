@@ -1,0 +1,3 @@
+Praca domowa3 (HashSet):
+ 1. Napisz metodę, która porówna dwa zbiory i zwróci kolekcję tylko tych elementów, które są wspólne dla obu zbiorów.
+ 2. Napisz metodę, która sprawdzi czy wszystkie elementy pierwszego HashSetu znajdują się w drugim HashSecie – metoda ma zwracać boolean;
