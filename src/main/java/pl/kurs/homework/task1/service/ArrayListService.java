@@ -2,9 +2,9 @@ package pl.kurs.homework.task1.service;
 
 import java.util.ArrayList;
 
-public class ArrayListService<E> {
+public class ArrayListService {
 
-    public void replaceThirdElement(ArrayList<E> list, E newElement) {
+    public <E> void replaceThirdElement(ArrayList<E> list, E newElement) {
         if (list.size() >= 3) {
             list.set(2, newElement);
         } else {
@@ -12,15 +12,15 @@ public class ArrayListService<E> {
         }
     }
 
-    public void increaseList(ArrayList<E> list, int additionalSize) {
+    public <E> void increaseList(ArrayList<E> list, int additionalSize) {
         list.ensureCapacity(list.size() + additionalSize);
     }
 
-    public void trimList(ArrayList<E> list) {
+    public <E> void trimList(ArrayList<E> list) {
         list.trimToSize();
     }
 
-    public void clearList(ArrayList<E> list) {
+    public <E> void clearList(ArrayList<E> list) {
         list.clear();
     }
 }

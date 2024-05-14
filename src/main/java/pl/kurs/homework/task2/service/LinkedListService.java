@@ -2,21 +2,21 @@ package pl.kurs.homework.task2.service;
 
 import java.util.LinkedList;
 
-public class LinkedListService<E> {
+public class LinkedListService {
 
-    public void insertElement(LinkedList<E> linkedList, E element, int index) {
+    public <E> void insertElement(LinkedList<E> linkedList, E element, int index) {
         linkedList.add(index, element);
     }
 
-    public boolean containsElement(LinkedList<E> linkedList, E element) {
+    public <E> boolean containsElement(LinkedList<E> linkedList, E element) {
         return linkedList.contains(element);
     }
 
-    public boolean isLinkedListEmpty(LinkedList<E> linkedList) {
+    public <E> boolean isLinkedListEmpty(LinkedList<E> linkedList) {
         return linkedList.isEmpty();
     }
 
-    public LinkedList<Boolean> compareTwoLinkedList(LinkedList<E> linkedListOne, LinkedList<E> linkedListTwo) {
+    public <E> LinkedList<Boolean> compareTwoLinkedList(LinkedList<E> linkedListOne, LinkedList<E> linkedListTwo) {
         LinkedList<Boolean> result = new LinkedList<>();
 
         int minSize = Math.min(linkedListOne.size(), linkedListTwo.size());
