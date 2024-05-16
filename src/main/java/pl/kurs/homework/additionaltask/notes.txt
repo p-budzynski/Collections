@@ -1,0 +1,12 @@
+Praca domowa:
+Zad 1: przetestowac metodki z klasy Collections:
+Przydatne metody z klasy Collections:
+•	binarySearch() - w posortowanej liście wyszukuje element podany jako drugi argument,
+•	copy() - pozwala skopiować wszystkie elementy jednej listy do innej,
+•	fill() - podmienia wszystkie elementy podanej listy obiektem przekazanym jako drugi argument,
+•	frequency() - zlicza liczbę wystąpień w kolekcji danego obiektu,
+•	min() / max() - zwraca najmniejszą lub największą wartość w kolekcji (zgodnie z naturalnym porządkiem lub przekazanym komparatorem),
+•	reverse() - odwraca kolejność elementów w liście,
+•	shuffle() - miesza elementy w liście,
+•	swap() - zamienia miejscami dwa elementy w liście.
+•	sort() – sortuje kolekcję wg. naturalnej kolejności.

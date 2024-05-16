@@ -1,0 +1,3 @@
+Praca domowa 5 (HashMap):
+1.Napisz metodę, która będzie zwracała płytką kopię HashMapy;
+2.Napisz metodę, która uzupełni HashMapę podaną jako pierwszy argument elementami z HashMapy podanej jako drugi argument;

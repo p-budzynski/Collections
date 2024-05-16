@@ -1,0 +1,6 @@
+Praca domowa 7 (Kolejki)
+Stwórz klasę kosz zakupowy, do którego będziesz wrzucał produkty (Klasa abstrakcyjna produkt(nazwa i cena) i klasy rozszerzające -
+produkt spożywczy, chemia domowa, komsetyk, narzędzia (i utwórz sobie kilka obiektyów każdej z klas))
+produkty mają być umieszczane do koszyka za pomocą metody koszyka addProduct(),
+ a pobierane z koszyka za pomocą metody takeProdukt() - produkty mają być pobierane w odwrotnej kolejności niż były dodawane do koszyka
+ (tak jakby układały się jeden na drugim w wąskim, ale wysokim koszyku)

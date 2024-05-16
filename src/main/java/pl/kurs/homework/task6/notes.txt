@@ -1,0 +1,3 @@
+Praca domowa 6 (TreeMap):
+1.Napisz metodę, która zwróci pierwszy  klucz przynajmniej równy lub większy zaraz po kluczu przekazanym w argumencie (jeżeli taki klucz nie istnieje, to zwróci najbliższy wyższy);
+2.Napisz metodę, która zwróci SortedMapę zawierającą część TreeMapy, gdzie klucze są większe lub równe kluczowi podanemu jako argument;
