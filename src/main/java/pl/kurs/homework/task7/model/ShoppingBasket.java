@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class ShoppingBasket {
-    Deque<Product> shoppingBasket;
+    private Deque<Product> shoppingBasket;
 
     public ShoppingBasket() {
         this.shoppingBasket = new ArrayDeque<>();
